@@ -1,3 +1,8 @@
+/**
+ * 
+ * @param {Object} graph 
+ * @param {Node} source 
+ */
 const depthFirstPrint = (graph, source) => {
   const stack = [ source ];
   while(stack.length > 0) {
