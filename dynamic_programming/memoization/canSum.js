@@ -12,6 +12,11 @@
  * 
  * @complexity
  * 
+ * Brute Force
+ * Time: O(n^m);
+ * Space: O(m);
+ * 
+ * Memoized
  * Time: O(m * n)
  * Space: O(m)
  */

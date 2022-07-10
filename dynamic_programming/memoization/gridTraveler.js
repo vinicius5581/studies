@@ -6,8 +6,14 @@
  * @returns 
  * 
  * @complexity
- * Time: O(m * n);
- * Space: O(n + m);
+ * 
+ * Brute Force
+ * Time: O(2 ^ (n + m))
+ * Space; O(n + m)
+ * 
+ * Memoized
+ * Time: O(m * n)
+ * Space: O(n + m)
  * 
  */
 const gridTraveler = (m, n, memo = {}) => {

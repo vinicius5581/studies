@@ -6,6 +6,10 @@
  * 
  * @complexity
  * 
+ * Brute Force
+ * Time: O(2 ^ n)
+ * Space: O(n)
+ * 
  * Time: O(n)
  * Space: O(n)
  */
